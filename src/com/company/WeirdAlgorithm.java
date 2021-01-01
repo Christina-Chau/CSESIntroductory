@@ -2,6 +2,9 @@ package com.company;
 
 import java.util.Scanner;
 
+/**
+ * @author Christina Chau
+ */
 public class WeirdAlgorithm {
 
     public static void main(String[] args) {
@@ -11,6 +14,10 @@ public class WeirdAlgorithm {
         stdin.close();
     }
 
+    /**
+     * Method to recursively change the input number based on its parity. Divides <code>n</code> by 2 if it is even or multiplies <code>n</code> by three and adds one if it is odd
+     * @param n a number of type long
+     */
     public static void divNum(long n){
         System.out.print(n + " ");
         if(n % 2 == 0 && n !=1)
